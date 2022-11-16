@@ -31,10 +31,6 @@
         <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="6.0.5" />
     </ItemGroup>
     
-    <ItemGroup>
-      <_ContentIncludedByDefault Remove="ClientApp\package-lock.json" />
-    </ItemGroup>
-
     <PropertyGroup>
         <RunPostBuildEvent>OnBuildSuccess</RunPostBuildEvent>
     </PropertyGroup>

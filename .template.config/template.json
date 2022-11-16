@@ -1,13 +1,12 @@
 {
   "$schema": "http://json.schemastore.org/template",
-  "author": "JasonTaylorDev",
+  "author": "patrickarobinson.com",
   "classifications": [
-    "Web",
-    "SPA",
+    "Web API",
     "ASP.NET",
     "Clean Architecture"
   ],
-  "name": "Clean Architecture Solution",
+  "name": "Vermeer Clean Architecture Solution",
   "description":  "This is a test.",
   "identity": "Clean.Architecture.Solution.CSharp",
   "groupIdentity": "Clean.Architecture.Solution",
