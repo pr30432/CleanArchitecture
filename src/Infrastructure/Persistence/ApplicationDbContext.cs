@@ -1,6 +1,5 @@
 ﻿using System.Reflection;
 using CleanArchitecture.Application.Common.Interfaces;
-using CleanArchitecture.Domain.Entities;
 using CleanArchitecture.Infrastructure.Identity;
 using CleanArchitecture.Infrastructure.Persistence.Interceptors;
 using Duende.IdentityServer.EntityFramework.Options;
@@ -26,10 +25,6 @@ public class ApplicationDbContext : ApiAuthorizationDbContext<ApplicationUser>, 
         _mediator = mediator;
         _auditableEntitySaveChangesInterceptor = auditableEntitySaveChangesInterceptor;
     }
-
-    public DbSet<TodoList> TodoLists => Set<TodoList>();
-
-    public DbSet<TodoItem> TodoItems => Set<TodoItem>();
 
     protected override void OnModelCreating(ModelBuilder builder)
     {
